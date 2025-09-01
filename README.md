@@ -48,26 +48,6 @@ This project covers the full pipeline: **Data Engineering → Model Training →
 
 ---
 
-## ⚙️ Installation & Setup
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/loan-prediction-app.git
-   cd loan-prediction-app
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r Requirements.txt
-   ```
-
-3. Run Streamlit App:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
 ## 🌐 Deployment
 
 This project can be deployed using **Streamlit Cloud**:
