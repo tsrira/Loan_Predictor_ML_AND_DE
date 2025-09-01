@@ -5,7 +5,7 @@ import pandas as pd
 
 # Load trained model
 with open("model.pkl", "rb") as f:
-    model, sklearn_version =  = pickle.load(f)
+    model, sklearn_version = pickle.load(f)
 
 st.title("🏦 Loan Approval Prediction App")
 st.write("Enter applicant details to check loan approval prediction.")
@@ -63,4 +63,5 @@ if st.button("Predict Loan Approval"):
         st.success("✅ Loan Approved!")
     else:
         st.error("❌ Loan Rejected!")
+
 
